@@ -1,0 +1,43 @@
+.navbar{
+    grid-area: navbar;
+    background-color: #1b088bd3;
+    color: #fff;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.asidebar{
+    grid-area: asidebar;
+    background-color: bisque;
+    min-height: 80vh;
+    padding: 5%;
+
+}
+.main{
+    grid-area: main;
+    background-color: white;
+    padding: 5%;
+}
+.footer{
+    grid-area: footer;
+    background-color: #1b088bd3;
+    color: #fff;
+    min-height: 10vh;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-areas: 
+    'navbar navbar navbar navbar navbar navbar navbar navbar'
+    'asidebar main main main main main main main'
+    'footer footer footer footer footer footer footer footer';
+    font-family: 'Radio Canada', sans-serif;
+}
