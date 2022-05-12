@@ -21,9 +21,14 @@
     min-height: 10vh;
     margin-bottom: 0px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: larger;
+}
+.footer a{
+    font-size: xx-small;
+    color: #fff;
 }
 body{
     margin-top: 0px;
