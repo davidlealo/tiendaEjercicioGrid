@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    .asidebar{
+        width: fit-content;
+    }
+    .asidebar h3{
+        font-size: x-small;
+    }
+    .asidebar ul{
+        font-size: x-small;
+        text-align: start;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: auto;
+        padding-bottom: 10%;
+        padding-bottom: 5%;
+        overflow: auto;
+    }
+    .navbar{
+        min-height: 5vh;
+    }
+    .footer{
+        min-height: 5vh;
+        margin-bottom: 0px;
+    }
+    body{
+        background-color: #02b54f;
+    }
+    .card{
+        min-width: 35vw;
+    }
+}

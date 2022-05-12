@@ -1,6 +1,6 @@
 .navbar{
     grid-area: navbar;
-    background-color: #1b088bd3;
+    background-color: #014afe;
     color: #fff;
     min-height: 10vh;
     display: flex;
@@ -10,19 +10,13 @@
 }
 .asidebar{
     grid-area: asidebar;
-    background-color: bisque;
+    background-color: #fd9d10;
     padding: 5%;
 
 }
-.main{
-    grid-area: main;
-    background-color: white;
-    padding: 3%;
-    padding-bottom: 5%;
-}
 .footer{
     grid-area: footer;
-    background-color: #1b088bd3;
+    background-color: #014afe;
     color: #fff;
     min-height: 10vh;
     margin-bottom: 0px;
@@ -63,11 +57,13 @@ body{
     color: rgb(67, 58, 58);
 }
 .main{
-    background-color: rgb(166, 208, 131);
+    background-color: #02b54f;
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 5%;
-
+    gap: 3%;
+    grid-area: main;
+    padding: 3%;
+    padding-bottom: 10%;
 }
 .card{
     background-color: aliceblue;
@@ -88,7 +84,7 @@ body{
 .footerCard{
     margin-top: 1vh;
     padding: 2%;
-    background-color: #1b088bd3;
+    background-color: #fd1126;
     color: #fff;
     display: flex;
     align-items: center;
@@ -97,5 +93,8 @@ body{
 .footerCard:hover{
     margin-top: 1.3vh;
     padding: 3%;
-    background-color: #33209fd3;
+    background-color: #fd9d10;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: larger;
 }
