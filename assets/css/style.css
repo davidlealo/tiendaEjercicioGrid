@@ -11,7 +11,6 @@
 .asidebar{
     grid-area: asidebar;
     background-color: bisque;
-    min-height: 80vh;
     padding: 5%;
 
 }
@@ -19,6 +18,7 @@
     grid-area: main;
     background-color: white;
     padding: 3%;
+    padding-bottom: 5%;
 }
 .footer{
     grid-area: footer;
@@ -61,4 +61,41 @@ body{
 .numberStock{
     font-weight: 300;
     color: rgb(67, 58, 58);
+}
+.main{
+    background-color: rgb(166, 208, 131);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+
+}
+.card{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20vw;
+    
+}
+.card img{
+    margin: 3%;
+    height: 100%;
+}
+.card h4{
+    color: rgb(31, 30, 30);
+}
+.footerCard{
+    margin-top: 1vh;
+    padding: 2%;
+    background-color: #1b088bd3;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerCard:hover{
+    margin-top: 1.3vh;
+    padding: 3%;
+    background-color: #33209fd3;
 }
